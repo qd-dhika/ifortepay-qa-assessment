@@ -5,7 +5,7 @@ Answers and automation for the iFortepay QA Assessment.
 | Section | Deliverable | Tools |
 |---|---|---|
 | QA Basic | Submitted separately (document) | - |
-| API Test Automation | [api-test-automation/](api-test-automation/): test scenarios, bug list, automation, signature generator | Cypress + Cucumber (Gherkin BDD), Postman, Node.js `crypto` |
+| API Test Automation | [api-test-automation/](api-test-automation/): test scenarios, bug list, automation, signature generator | Cypress + Cucumber (Gherkin BDD), Node.js `crypto` |
 | Front End: test cases & UI elements | Submitted separately (spreadsheet) | - |
 | Front End: Web automation | [web-test-automation/](web-test-automation/) | Cypress + Cucumber (Gherkin BDD), Page Object Model |
 | Front End: Mobile automation | [mobile-test-automation/](mobile-test-automation/) | Appium 2 (UiAutomator2) + WebdriverIO + Cucumber (Gherkin BDD) |
@@ -40,7 +40,7 @@ the registered email in uppercase fails (TC-SI-002).
 
 ```
 .
-├── api-test-automation/          # API: Cypress BDD + Postman collection + signature generator
+├── api-test-automation/          # API: Cypress BDD + signature generator
 ├── web-test-automation/          # Web: Cypress BDD + Page Object Model
 └── mobile-test-automation/       # Mobile: Appium + WebdriverIO BDD
 ```

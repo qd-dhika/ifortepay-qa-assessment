@@ -18,3 +18,6 @@ cypress/downloads/
 
 # Front End test cases are submitted separately
 frontend-test-cases/
+
+# Postman collection is kept local only
+api-test-automation/postman/

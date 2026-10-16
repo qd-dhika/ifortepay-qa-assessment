@@ -1,7 +1,7 @@
 # iFortepay - Create VA API Test Automation
 
 **Tools:** Cypress 13 + Cucumber (Gherkin BDD, `@badeball/cypress-cucumber-preprocessor`),
-Node.js `crypto` (signature generator), Postman collection (manual run).
+Node.js `crypto` (signature generator).
 
 ## Structure
 
@@ -23,7 +23,6 @@ api-test-automation/
 ├── scripts/
 │   ├── env.js                                       # loads .env
 │   └── generate_signature.js                        # Authorization & x-req-signature generator
-├── postman/                                         # same scenarios as Postman collection (manual run)
 └── package.json
 ```
 
@@ -102,14 +101,6 @@ npx cypress run --spec cypress/e2e/create_va/01_positive.feature
 > Running from the VS Code terminal and getting `Cypress.exe: bad option: --smoke-test`?
 > VS Code sets `ELECTRON_RUN_AS_NODE=1`. Unset it first:
 > PowerShell `Remove-Item Env:ELECTRON_RUN_AS_NODE`, bash `unset ELECTRON_RUN_AS_NODE`.
-
-## Postman (manual run)
-
-1. Import `postman/iFortepay_Create_VA.postman_collection.json` and `postman/iFortepay_Stage.postman_environment.json`.
-2. Select environment **iFortepay Stage** and fill `merchant_index`, `secret_unbound_id`, `hash_key`
-   with the credentials from the assessment document (they are left empty in the repository).
-3. Send any request or use **Run collection**.
-   Authorization and signature are generated automatically in the collection pre-request script.
 
 ## Execution result on staging (2026-10-16)
 
