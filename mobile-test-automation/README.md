@@ -24,7 +24,3 @@ Run by tag (PowerShell): `$env:TAGS="@sign-up"; npm test`
 - `features/*.feature` - test scenarios
 - `features/pageobjects/` - screen objects
 - `features/step-definitions/` - step implementation
-
-## Result
-
-17 tests: 17 passed (Android 14 emulator).

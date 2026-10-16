@@ -8,12 +8,4 @@
 
 QA Basic answers and Front End test cases are submitted separately.
 
-## Result
-
-| Project | Total | Passed | Failed |
-|---|---|---|---|
-| API | 60 | 51 | 9 (7 bugs, 2 blocked) |
-| Web | 23 | 21 | 2 (1 bug) |
-| Mobile | 17 | 17 | 0 |
-
 See the README in each folder for how to run.

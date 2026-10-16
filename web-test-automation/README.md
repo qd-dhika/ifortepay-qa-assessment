@@ -22,11 +22,3 @@ Run by tag: `npx cypress run --browser chrome --env tags="@sign-in"`
 - `cypress/support/api/accountApi.js` - create / delete test account
 
 Each test uses a new account and deletes only that account after the test.
-
-## Result
-
-23 tests: 21 passed, 2 failed.
-
-| Bug | Test case |
-|---|---|
-| Email is case-sensitive (uppercase email can be registered again and cannot sign in) | TC-SU-019, TC-SI-002 |
