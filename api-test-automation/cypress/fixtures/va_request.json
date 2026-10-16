@@ -1,0 +1,21 @@
+{
+  "external_id": "",
+  "order_id": "QA-ORDER-01",
+  "currency": "IDR",
+  "payment_method": "bank_transfer",
+  "payment_channel": "MANDIRI",
+  "payment_details": {
+    "billing_name": "QA Test",
+    "payment_system": "CLOSED",
+    "amount": 10000,
+    "expired_time": "",
+    "transaction_description": "Pembelian Pulsa"
+  },
+  "customer_details": {
+    "email": "testqa@gmail.com",
+    "full_name": "QA test",
+    "phone": "0898888888"
+  },
+  "additional_data": "",
+  "callback_url": "https://mcpid.proxy.beeceptor.com"
+}

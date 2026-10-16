@@ -1,0 +1,22 @@
+{
+  "name": "ifortepay-mobile-test-automation",
+  "version": "1.0.0",
+  "description": "Android mobile test automation for Sign Up / Sign In (WebdriverIO native demo app) using Appium + WebdriverIO + Cucumber (Gherkin BDD)",
+  "private": true,
+  "scripts": {
+    "setup": "npm run app:download && npm run appium:driver",
+    "app:download": "node scripts/download-app.js",
+    "appium:driver": "appium driver install --source=npm appium-uiautomator2-driver@4",
+    "test": "wdio run ./wdio.conf.js"
+  },
+  "devDependencies": {
+    "@wdio/appium-service": "^9.32.0",
+    "@wdio/cli": "^9.32.0",
+    "@wdio/cucumber-framework": "^9.32.0",
+    "@wdio/local-runner": "^9.32.0",
+    "@wdio/spec-reporter": "^9.32.0",
+    "appium": "^2.19.0",
+    "appium-uiautomator2-driver": "^4.2.9",
+    "dotenv": "^16.6.1"
+  }
+}

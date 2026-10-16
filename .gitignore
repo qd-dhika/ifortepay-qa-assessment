@@ -1,0 +1,17 @@
+# assessment document is confidential
+*.pdf
+
+# local / generated
+node_modules/
+.env
+reports/
+cypress/screenshots/
+cypress/videos/
+apps/*.apk
+.deepeval/
+.vscode/
+~$*
+cypress/downloads/
+
+# QA Basic answers are submitted separately
+*.docx
