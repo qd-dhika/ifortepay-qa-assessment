@@ -15,3 +15,6 @@ cypress/downloads/
 
 # QA Basic answers are submitted separately
 *.docx
+
+# Front End test cases are submitted separately
+frontend-test-cases/

@@ -4,7 +4,7 @@
 a public demo app for mobile automation practice with a native "Login / Sign up Form".
 **Tools:** Appium 2 + UiAutomator2 driver, WebdriverIO 9, Cucumber (Gherkin BDD), Screen Object pattern.
 
-Test case IDs (`TC-SU-xxx`, `TC-SI-xxx`) refer to `../frontend-test-cases/TestCases_SignUp_SignIn.xlsx`.
+Test case IDs (`TC-SU-xxx`, `TC-SI-xxx`) refer to the Sign Up / Sign In test case spreadsheet (submitted separately).
 
 ## Structure
 

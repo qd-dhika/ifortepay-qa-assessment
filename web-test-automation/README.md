@@ -3,7 +3,7 @@
 **Target:** https://automationexercise.com (public demo e-commerce site for test automation practice)
 **Tools:** Cypress 13 + Cucumber (Gherkin BDD, `@badeball/cypress-cucumber-preprocessor`), Page Object Model, Chrome.
 
-Test case IDs (`TC-SU-xxx`, `TC-SI-xxx`) refer to `../frontend-test-cases/TestCases_SignUp_SignIn.xlsx`.
+Test case IDs (`TC-SU-xxx`, `TC-SI-xxx`) refer to the Sign Up / Sign In test case spreadsheet (submitted separately).
 
 ## Structure
 
